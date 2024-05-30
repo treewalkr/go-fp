@@ -12,19 +12,14 @@ This repository covers essential functional programming topics, including core c
 
 The repository is organized into the following sections:
 
-- **Basic Concepts**: Pure functions, immutability, first-class functions, etc.
-- **Types and Type Systems**: ADTs, product types, sum types, etc.
-- **Functional Data Structures**: Immutable lists, maps, trees, etc.
-- **Common Functional Patterns**: Map, filter, fold, monads, etc.
-- **Recursion**: Tail recursion, recursive data structures.
-- **Function Composition**: Point-free style, pipeline composition.
-- **Error Handling**: Maybe, Either types.
-- **Lazy Evaluation**: Streams, infinite data structures.
-- **Concurrency and Parallelism**: Actor model, STM.
-- **Functional Testing**: Property-based testing, TDD.
-- **Category Theory**: Functors, monads, and laws.
-
-## Getting Started
-
-Clone this repository and explore each folder for implementations and documentation. Each topic has its own documentation file and Go implementation(s) for easy reference.
-
+- **Basic Concepts** Pure functions, immutability, first-class functions, closures, referential transparency, side effects, currying, partial application.
+- **Types and Type Systems** ADTs, product types, sum types, type composition, phantom types, higher-kinded types, typeclasses.
+- **Functional Data Structures** Immutable lists, maps, trees, zippers, persistent data structures, trie structures.
+- **Common Functional Patterns** Map, filter, fold, monads, flatMap, applicative functors, foldable, traversable, lenses, prisms.
+* **Recursion** Basic recursion, tail recursion, recursive data structures, divide and conquer, structural vs. generative recursion, recursion schemes.
+- **Function Composition** Basic composition, point-free style, pipeline composition, chaining, combinators, dynamic composition.
+- **Error Handling** Maybe, Either types, validation, effect systems.
+- **Lazy Evaluation** Lazy data structures, memoization, thunking, backtracking.
+- **Concurrency and Parallelism** Actor model, STM, pipelines, parallel map, concurrency primitives.
+- **Functional Testing** Property-based testing, TDD, mocking in FP, higher-order tests, randomized testing.
+- **Category Theory** Functors, monoids, semigroups, natural transformations, monads, Kleisli composition.
